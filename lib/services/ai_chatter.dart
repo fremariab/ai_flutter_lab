@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 // Function to fetch travel recommendations for a given destination
 Future<String> getTravelRecommendations(String prompt) async {
   // API key for authenticating the request.
-  const geminiAPIKey = 'AIzaSyBqRJOyqI6gPZbfwwQ1DINea_4N-dc8_B8';
+  const geminiAPIKey = 'AIzaSyCabcLexlRoEoWrCoSMiwUrSl6dOFC2qBE';
   // Gemini API endpoint with the API key as a query parameter to send requests
   const url =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$geminiAPIKey';

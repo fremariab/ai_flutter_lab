@@ -4,7 +4,7 @@ import '../services/ai_chatter.dart';
 class ChatScreen extends StatefulWidget {
   final TextEditingController destinationController;
 
-  ChatScreen({required this.destinationController});
+  const ChatScreen({super.key, required this.destinationController});
 
   @override
   _ChatScreenState createState() => _ChatScreenState();

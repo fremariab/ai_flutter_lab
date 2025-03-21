@@ -4,7 +4,7 @@ import '../services/ai_translator.dart';
 class TranslatorScreen extends StatefulWidget {
   final TextEditingController destinationController;
 
-  TranslatorScreen({required this.destinationController});
+  const TranslatorScreen({super.key, required this.destinationController});
 
   @override
   _TranslatorScreenState createState() => _TranslatorScreenState();

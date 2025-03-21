@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ChatScreen extends StatelessWidget {
   final TextEditingController destinationController;
 
-  ChatScreen({required this.destinationController});
+  const ChatScreen({super.key, required this.destinationController});
 
   @override
   Widget build(BuildContext context) {
